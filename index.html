@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChattyPixel - Entreprise de Développement Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div id="progress-bar"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="images/logo.png" alt="ChattyPixel Logo" class="logo">
+                <span class="brand-text">ChattyPixel</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Accueil</a>
+                <a href="#about" class="nav-link">À propos</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#projects" class="nav-link">Projets</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="hero-title">🚀 <span id="typewriter">Bienvenue chez ChattyPixel</span></h1>
+                <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="300">Votre partenaire de confiance pour des solutions de développement web modernes</p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="500">
+                    <a href="#projects" class="button primary">Voir nos réalisations</a>
+                    <a href="#contact" class="button secondary">Démarrer votre projet</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-number" data-target="47">47</div>
+                    <div class="stat-label">Projets Réalisés</div>
+                </div>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-number" data-target="38">45</div>
+                    <div class="stat-label">Clients Satisfaits</div>
+                </div>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-number" data-target="3">3</div>
+                    <div class="stat-label">Années d'Expérience</div>
+                </div>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-number" data-target="24">24/7</div>
+                    <div class="stat-label">Support 24h/7j</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>À propos de ChattyPixel</h2>
+                <p>Nous nous spécialisons dans l'aide aux entrepreneurs en ligne pour créer des outils numériques simples et puissants</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p data-aos="fade-up" data-aos-delay="100">De la création de votre premier site web professionnel à la mise en place de chatbots qui répondent automatiquement aux questions de vos clients, nous aidons les petits vendeurs comme vous à paraître plus grands et à travailler plus intelligemment.</p>
+                    <p data-aos="fade-up" data-aos-delay="200">Que vous vendiez des parfums, des montres, des abonnements ou tout autre produit, nous vous accompagnons dans votre transformation digitale pour développer votre activité en ligne de manière efficace et professionnelle.</p>
+                    <div class="skills" data-aos="fade-up" data-aos-delay="300">
+                        <h3>Notre Expertise</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag" data-aos="zoom-in" data-aos-delay="400">Sites Web Professionnels</span>
+                            <span class="skill-tag" data-aos="zoom-in" data-aos-delay="450">Chatbots Intelligents</span>
+                            <span class="skill-tag" data-aos="zoom-in" data-aos-delay="500">E-commerce</span>
+                            <span class="skill-tag" data-aos="zoom-in" data-aos-delay="550">Automatisation Client</span>
+                            <span class="skill-tag" data-aos="zoom-in" data-aos-delay="600">Optimisation Mobile</span>
+                            <span class="skill-tag" data-aos="zoom-in" data-aos-delay="650">Génération de Leads</span>
+                            <span class="skill-tag" data-aos="zoom-in" data-aos-delay="700">Intégration Réseaux Sociaux</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-placeholder">
+                        <img src="images/logo.png" alt="ChattyPixel Logo" class="about-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>🔧 Nos Services</h2>
+                <p>Des solutions concrètes pour faire décoller votre business en ligne</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">🌐</div>
+                    <h3>Sites Web Professionnels pour Vendeurs en Ligne</h3>
+                    <p>Un site web propre et adapté mobile où vous pouvez :</p>
+                    <ul class="service-features">
+                        <li data-aos="fade-left" data-aos-delay="200">✅ Présenter vos produits (parfums, montres, abonnements)</li>
+                        <li data-aos="fade-left" data-aos-delay="250">✅ Créer la confiance avec un vrai branding</li>
+                        <li data-aos="fade-left" data-aos-delay="300">✅ Faciliter les contacts et commandes</li>
+                        <li data-aos="fade-left" data-aos-delay="350">✅ Intégrer vos réseaux sociaux</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">🤖</div>
+                    <h3>Chatbots Qui Travaillent Pour Vous</h3>
+                    <p>Un chatbot intelligent qui :</p>
+                    <ul class="service-features">
+                        <li data-aos="fade-left" data-aos-delay="300">✅ Répond aux questions courantes (prix, livraison, retours)</li>
+                        <li data-aos="fade-left" data-aos-delay="350">✅ Qualifie les prospects avant qu'ils vous contactent</li>
+                        <li data-aos="fade-left" data-aos-delay="400">✅ Fonctionne 24h/24 — vous n'avez pas à le faire</li>
+                        <li data-aos="fade-left" data-aos-delay="450">✅ S'intègre parfaitement à Instagram, TikTok Shop</li>
+                    </ul>
+                    <p class="service-note">Parfait pour les vendeurs Instagram, TikTok shops, ou toute promotion sur les réseaux sociaux.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Work With Me Section -->
+    <section class="why-work-with-me">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>🎯 Pourquoi Travailler Avec Nous?</h2>
+                <p>Une approche personnalisée pour les entrepreneurs en ligne</p>
+            </div>
+            <div class="why-content">
+                <div class="why-intro" data-aos="fade-up">
+                    <p>Contrairement aux grandes agences, nous nous concentrons uniquement sur ce dont vous avez besoin en tant que vendeur en ligne. Que vous débutiez ou cherchiez à évoluer, nous vous aidons à :</p>
+                </div>
+                <div class="why-grid">
+                    <div class="why-card" data-aos="flip-left" data-aos-delay="100">
+                        <div class="why-icon">✨</div>
+                        <h3>Paraître Plus Professionnel</h3>
+                        <p>Créez une image de marque forte qui inspire confiance à vos clients et vous démarque de la concurrence.</p>
+                    </div>
+                    <div class="why-card" data-aos="flip-left" data-aos-delay="200">
+                        <div class="why-icon">⚡</div>
+                        <h3>Gagner du Temps avec l'Automatisation</h3>
+                        <p>Automatisez les tâches répétitives pour vous concentrer sur ce qui compte vraiment : développer votre business.</p>
+                    </div>
+                    <div class="why-card" data-aos="flip-left" data-aos-delay="300">
+                        <div class="why-icon">📈</div>
+                        <h3>Transformer Plus de Visiteurs en Acheteurs</h3>
+                        <p>Optimisez votre parcours client pour augmenter vos conversions et maximiser vos ventes.</p>
+                    </div>
+                </div>
+                <div class="why-cta" data-aos="fade-up" data-aos-delay="400">
+                    <p class="why-cta-text">Prêt à faire passer votre business au niveau supérieur ?</p>
+                    <a href="#contact" class="button primary pulse-button">Commençons Ensemble</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Nos Projets Récents</h2>
+                <p>Une vitrine de projets récents réussis livrés pour nos clients</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-content">
+                        <h3>📁 Chatbot IA pour le Catering</h3>
+                        <p class="project-type">📌 Type : Chatbot web intégré</p>
+                        <p>Chatbot intelligent qui aide une entreprise de catering à mieux capter et qualifier les demandes des clients. Ce robot répond instantanément aux questions fréquentes, filtre les prospects sérieux et libère du temps pour l'équipe humaine.</p>
+                        <div class="project-tags">
+                            <span class="tag" data-aos="zoom-in" data-aos-delay="200">Génération de Leads</span>
+                            <span class="tag" data-aos="zoom-in" data-aos-delay="250">Automatisation</span>
+                            <span class="tag" data-aos="zoom-in" data-aos-delay="300">IA Conversationnelle</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="project-content">
+                        <h3>📁 Assistant Réglementaire ANRAC</h3>
+                        <p class="project-type">📌 Type : Chatbot institutionnel</p>
+                        <p>Chatbot développé pour l'Agence Nationale de Réglementation des Activités relatives au Cannabis (ANRAC), une agence gouvernementale marocaine. Ce chatbot aide les utilisateurs à comprendre la législation, les procédures d'autorisation et les usages licites du cannabis à des fins médicales, pharmaceutiques et industrielles au Maroc.</p>
+                        <div class="project-tags">
+                            <span class="tag" data-aos="zoom-in" data-aos-delay="250">Service Public</span>
+                            <span class="tag" data-aos="zoom-in" data-aos-delay="300">Information Réglementaire</span>
+                            <span class="tag" data-aos="zoom-in" data-aos-delay="350">Assistance Administrative</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-content">
+                        <h3>📁 Système de Recommandation de Livres</h3>
+                        <p class="project-type">📌 Type : Site web interactif</p>
+                        <p>Site qui propose des suggestions personnalisées de livres en fonction des goûts de chaque utilisateur. Il apprend à connaître les préférences et recommande des ouvrages adaptés, un peu comme un bibliothécaire virtuel.</p>
+                        <div class="project-tags">
+                            <span class="tag" data-aos="zoom-in" data-aos-delay="300">Personnalisation</span>
+                            <span class="tag" data-aos="zoom-in" data-aos-delay="350">Interface Intuitive</span>
+                            <span class="tag" data-aos="zoom-in" data-aos-delay="400">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-content">
+                        <h3>📁 Assistant Médical Virtuel</h3>
+                        <p class="project-type">📌 Type : Chatbot conversationnel</p>
+                        <p>Assistant qui permet aux utilisateurs de décrire leurs symptômes et reçoivent des conseils pour mieux comprendre leur situation. C'est un outil utile pour guider les patients vers les bonnes démarches de santé.</p>
+                        <div class="project-tags">
+                            <span class="tag" data-aos="zoom-in" data-aos-delay="350">Dialogue Naturel</span>
+                            <span class="tag" data-aos="zoom-in" data-aos-delay="400">Disponibilité 24/7</span>
+                            <span class="tag" data-aos="zoom-in" data-aos-delay="450">Aide Médicale</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Prêt à démarrer votre projet ?</h2>
+                <p>Discutons de la façon dont ChattyPixel peut donner vie à votre vision</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item" data-aos="fade-up" data-aos-delay="100">
+                        <h3>📧 Email</h3>
+                        <p><a href="mailto:kaddourioussama189@gmail.com">kaddourioussama189@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3>📞 Téléphone</h3>
+                        <p><a href="tel:+212634350272">+212 634 350 272</a></p>
+                    </div>
+                    <div class="contact-item" data-aos="fade-up" data-aos-delay="300">
+                        <h3>🌐 Connectez-vous avec nous</h3>
+                        <div class="social-links">
+                            <a href="https://wa.me/212634350272" class="social-link whatsapp-link" target="_blank">
+                                💬 WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 ChattyPixel. Tous droits réservés.</p>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot -->
+    <div class="chatbot-container">
+        <a href="#contact" class="chatbot-button floating-button" id="chatbot-toggle">
+            <div class="chatbot-icon">💬</div>
+            <span class="chatbot-label">Discutez avec nous</span>
+        </a>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
